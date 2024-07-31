@@ -1,0 +1,574 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#d1d1d1;
+}
+/*alpha section start*/
+    /*alpha navbar section start*/
+        .alpha_nav{
+            padding: 20px 0px 10px;
+        }
+        .logo-alpha img{
+            width: 80%;
+        }
+        .alpha-list{
+            margin-left: auto;
+        }
+        .alpha-list li{
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        .alpha-list li a{
+            text-decoration: none;
+            font-family: serif;
+            font-size: 21px;
+            font-weight: 500;
+        }
+        .alpha-social{
+            padding: 10px 12px 10px;
+        }
+        .alpha-social a{
+            color: #000;
+            margin: 5px;
+            font-size: 20px;
+        }
+        .alpha-social a:hover{
+            font-size: 21px;
+        }
+        .alpha-contact{
+            background-color:#d90028;
+            padding: 20px;
+        }
+        .alpha-contact a{
+            padding:5px;
+            text-decoration: none;
+            color: #fff;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .alpha-contact:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    /*alpha navbar section end*/
+     /*alpha events section start*/
+            #alpha-events{
+               padding: 50px 0px 20px;
+            }
+            .events-img{
+                position: relative;
+            }
+            .events-img img{
+                width: 100%;
+                filter: brightness(0.5);
+            }
+            .events-text{
+                position: absolute;
+                top: 60%;
+                left: 35%;
+                text-align: center;
+            }
+            .events-text h1{
+                color: #fff;
+                font-size: 80px;
+                width: 55%;
+                line-height: 0.8;
+                text-align: center;
+                font-weight: 700;
+                letter-spacing: -7px;
+            }
+            .events-text p {
+                color: #fff;
+                text-align: center;
+                width: 65%;
+                font-size: 20px;
+                padding: 38px 0px 15px;
+                margin-left: -40px;
+            }
+            .events-text h6 {
+                color: #fff;
+                text-align: center;
+                margin-right: 40%;
+                padding-bottom: 25px;
+            }
+            .events-text a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                background-color: #d90028;
+                margin-right: 40%;
+                padding: 24px 35px 24px;
+            }
+            .events-text a:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        /*alpha events section end*/
+
+            /*alpha team section start*/
+                #team-superstar{
+                    padding: 50px 0px 20px;
+                    position: relative;
+                }
+                .team-img img {
+                    width: 100%;
+                    height: 450px;
+                    object-fit: cover;
+                    filter: brightness(0.5);
+                }
+                .team-text {
+                    position: absolute;
+                    text-align: center;
+                    top:35%;
+                    left: 35%;
+                    display: block;
+                }
+                .team-text h1 {
+                    width: 73%;
+                    color: #fff;
+                    font-size: 75px;
+                    line-height: 0.8;
+                    letter-spacing: -5px;
+                    font-weight: 700;
+                    font-style: oblique;
+                }
+                .team-text p {
+                    width: 79%;
+                    padding: 25px 0px 10px;
+                    color: #fff;
+                    text-align: center;
+                    margin-left: 2%;
+                    font-size: 23px;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+            /*alpha team section end*/
+            /*alpha hosting dawat section start*/
+                #alpha-dawat{
+                    padding: 20px 0px 20px;
+                }
+                .dawat-img{
+                    margin-left: -25%;
+                }
+                .dawat-img img {
+                    width: 90%;
+                    height: auto;
+                }
+                .dawat-text {
+                    padding: 200px 0px 15px;
+                }
+                .dawat-text h1 {
+                    font-size: 45px;
+                    font-weight: 700;
+                    font-family: inherit;
+                    text-transform: uppercase;
+                    line-height: 1;
+                    letter-spacing: -3px;
+                }
+                .dawat-text p {
+                    font-size: 19px;
+                    font-weight: 400;
+                    padding: 15px 0px 20px;
+                }
+                .dawat-text a{
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    background-color: #d90028;
+                    margin-right: 40%;
+                    padding: 24px 35px 24px;
+                    font-weight: 700;
+                }
+                .dawat-text a:hover{
+                    background-color: #000;
+                    color: #fff;
+                }
+            /*alpha hosting dawat section end*/
+            /*alpha leader-corporate section start*/
+            #leader-corporate{
+                padding: 30px 0px 0px;
+            }
+            .leader-text {
+                padding: 190px 7px 20px;
+                margin-left: -75px;
+            }
+            .leader-text h1 {
+                font-size: 50px;
+                line-height: 1;
+                letter-spacing: -6px;
+                font-weight: 700;
+            }
+            .leader-img img{
+                width: 100%;
+            }
+            .leader-text p {
+                font-size: 19px;
+                font-style: inherit;
+                padding: 20px 0px 30px;
+                font-weight: 400;
+            }
+            .leader-text a{
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                background-color: #d90028;
+                margin-right: 40%;
+                padding: 24px 35px 24px;
+                font-weight: 700;
+               
+            }
+            .leader-text a:hover{
+                background-color: #000;
+                color: #fff;
+            }
+            /*alpha leader-corporate section end*/
+            /*alpha wedding section start*/
+                #alpha-wedding{
+                    padding: 75px 0px 20px;
+                }
+                .wedding-img img{
+                    width: 100%;
+                    height: auto;
+                }
+                .wedding-text{
+                    margin-left: 10%;
+                    padding-top: 21%;
+                } 
+                .wedding-text h1 {
+                    font-size: 53px;
+                    font-weight: 700;
+                    letter-spacing: -6px;
+                    line-height: 1;
+                    padding-bottom: 25px;
+                }
+                .wedding-text p {
+                    font-family: inherit;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding-bottom: 25px;
+                }
+                .wedding-text a{
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    background-color: #d90028;
+                    margin-right: 40%;
+                    padding: 24px 35px 24px;
+                    font-weight: 700;
+                }
+                .wedding-text a:hover{
+                    background-color: #000;
+                    color: #fff;
+                }
+            /*alpha wedding section end*/
+                /*alpha offerings section start*/
+                #offering-alpha{
+                        padding: 50px 0px 20px;
+                }
+                .offering-heading h1 {
+                    font-size: 55px;
+                    font-weight: 600;
+                    font-style: inherit;
+                    line-height: 1;
+                    letter-spacing: -4px;
+                    padding-bottom: 25px;
+                }
+                .offering-img{
+                    margin: 5px;
+                }
+                .offering-img img {
+                    object-fit: fill;
+                    object-position: 50% 50%;
+                    width: 415px;
+                    height: 300px;
+                }
+                .offering-img-text{
+                    padding-top: 25px;
+                }
+                .offering-img-text h4 {
+                    font-size: 25px;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                    font-style: inherit;
+                }
+                .offering-img-text p {
+                    font-size: 17px;
+                    width: 100%;
+                }
+            /*alpha offerings section end*/
+               /*alpha seller section start*/
+               #best-seller{
+                padding: 50px 0px 20px;
+        }
+        .seller-heading h1 {
+            font-size: 55px;
+            font-weight: 600;
+            font-style: inherit;
+            line-height: 1;
+            letter-spacing: -4px;
+            padding-bottom: 25px;
+        }
+        .seller-img {
+            padding: 10px 1px 10px;
+            margin-left: 0px;
+        }
+        .seller-img img {
+            object-fit: fill;
+            object-position: 90% 100%;
+            width: 300px;
+            height: 300px;
+            margin: 0px;
+        }
+        .seller-img-text{
+            padding-top: 10px;
+        }
+        .seller-img-text h4 {
+            font-size: 25px;
+            padding-bottom: 0px;
+            font-weight: 700;
+            font-style: inherit;
+            line-height: 0.5;
+            letter-spacing: -2px;
+        }
+        .seller-img-text p {
+            font-size: 17px;
+            width: 100%;
+        }
+    /*alpha seller section end*/
+        /*alpha people-say section start*/
+        #people-say{
+            padding: 50px 0px 20px;
+        }
+        .people-heading{
+            padding: 25px 0px 20px;
+        }
+        .people-heading h1 {
+            font-size: 50px;
+            font-weight: bold;
+            font-style: inherit;
+            line-height: 1;
+            letter-spacing: -4px;
+        }
+        .people-img img {
+            width: 15%;
+            height: auto;
+        }
+        .people-img-heading h1 {
+            padding: 15px 0px 10px;
+            font-size: 25px;
+            font-weight: 700;
+            font-style: inherit;
+            line-height: 1;
+            letter-spacing: -2px;
+        }
+        .people-img-statement p {
+            font-size: 16px;
+            width: 100%;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+    /*alpha people-say section end*/
+        /*alpha featured section start*/
+            #featured{
+                padding: 50px 0px 20px;
+            }
+            .featured-heading{
+            padding: 10px 0px 30px;
+            text-align: center;
+            }
+            .featured-heading h1 {
+                font-size: 55px;
+                font-style: inherit;
+                font-weight: 700;
+                line-height: 1.5;
+                letter-spacing: -4px;
+            }
+            .featured-img{
+               padding: 20px;
+            }
+            .featured-img img{
+                width: 100%;
+            }
+        /*alpha featured section end*/
+        /*alpha carusel section start*/
+        * {box-sizing:border-box}
+
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 700px;
+          position: relative;
+          margin: auto;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          margin-top: -22px;
+          padding: 16px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #000000;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          top:102%;
+        }
+        
+        /* The dots/bullets/indicators */
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: none;
+          transition: background-color 0.6s ease;
+        }
+        
+        .active, .dot:hover {
+          background-color: #717171;
+        }
+        
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 4.5s;
+        }
+        
+        @keyframes fade {
+          from {opacity: .4}
+          to {opacity: 3}
+        }
+  
+        /*alpha carusel section end*/
+            /*alpha order section start*/
+                #alpha-order{
+                    padding: 70px 0px 25px;
+                }
+                .order-heading{
+                    text-align: center;
+                    padding-bottom: 50px;
+                }
+                .order-heading h1 {
+                    font-size: 50px;
+                    font-weight: bold;
+                    letter-spacing: -4px;
+                }
+                .order-heading p {
+                    font-size: 20px;
+                    padding-bottom: 30px;
+                }
+                .order-heading a{
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    background-color: #d90028;
+                    margin-right: 40%;
+                    padding: 24px 35px 24px;
+                    font-weight: 700;
+                    margin-left: 40%;
+                }
+                .order-heading a:hover{
+                    background-color: #000;
+                    color: #fff;
+                }
+            /*alpha order section end*/
+                /*alpha footer section start*/
+                    #footer{
+                        background-color: #bbb;
+                        padding: 50px 0px 25px;
+                    }
+                    .footer_1{
+                        padding: 5px 0px 15px;
+                    }
+                    .footer_1 h1 {
+                        font-size: 25px;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        letter-spacing: -2px;
+                        padding-bottom: 15px;
+                    }
+                    .footer_2{
+                        padding: 5px 0px 15px;
+                    }
+                    .footer_2 h1 {
+                        font-size: 25px;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        letter-spacing: -2px;
+                        padding-bottom: 8px;
+                        padding-left: 30px;
+                    }
+                    .footer_2 ul li{
+                        text-decoration: underline;
+                        list-style-type: none;
+                    }
+                    .footer_3 h1{
+                        font-size: 25px;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        letter-spacing: -2px;
+                        padding-bottom: 8px;
+                    }
+                    .footer_3 p{
+                        padding: 5px 0px 10px;
+                        font-size: 17px;
+                    }
+                    .footer_3 h6 {
+                        font-weight: 400;
+                        font-size: 18px;
+                        padding-bottom: 15px;
+                    }
+                    .footer_4{
+                        text-align: center;
+                    }
+                    .footer_4 h1{
+                        font-size: 20px;
+                        
+                    }
+                /*alpha footer section end*/
+        
+/*alpha section end*/
